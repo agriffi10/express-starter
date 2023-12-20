@@ -1,6 +1,4 @@
-import { describe } from "node:test";
-
-import app from "./index";
+import { app } from "./app";
 import request from "supertest";
 
 describe("Test index.ts", () => {
